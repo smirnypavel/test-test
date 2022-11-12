@@ -1,0 +1,23 @@
+.button  {
+  border-radius: 4px;
+  border: transparent;
+  align-content: center;
+  min-height: 50px;
+  width: 200px;
+  margin-bottom: 200px;
+  margin-top: 30px;
+  padding: 0px;
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  color: var(--white-color);
+  background-color: var(--accent-color-text);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--white-color);
+    background-color: var(--hover-button);
+  }
+  cursor: pointer;
+}

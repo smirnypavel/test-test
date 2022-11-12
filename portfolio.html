@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.2/simple-lightbox.min.css"
+        integrity="sha512-ej1gHD42cpakWkaVUaxh8+7ZmOUi0gva7JTB/WJBzTk80FwyodnaLwDVgVW9QBErUOa+CDtuaBJ5UrKWX/01aw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+</head>
+
+<body>
+    <div class="mob-menu is-hidden">
+        <div class="mob-menu-content">
+            <ul class="mob-menu-list">
+                <li class="mob-menu-item">
+                    <a href="./index.html" class="mob-menu-link link">Головна</a>
+                </li>
+                <li class="mob-menu-item">
+                    <a href="./portfolio.html" class="mob-menu-link curent-mob link">Галерея</a>
+                </li>
+                <li class="mob-menu-item">
+                    <a href="./contacts.html" class="mob-menu-link link">Контакти</a>
+                </li>
+            </ul>
+            <div class="mob-menu-links">
+                <a href="tel:+380931150187" class="mob-menu-tel">+38 093 115 01 87</a>
+                <a href="mailto:All-Sunders@ukr.net" class="mob-menu-mail">All-Sunders@ukr.net</a>
+                <ul class="mob-menu-social-list">
+                    <li class="mob-menu-social-item"><a href="" class="mob-menu-social-link link">Instagram</a></li>
+                    <li class="mob-menu-social-item"><a href="" class="mob-menu-social-link link">Twitter</a></li>
+                    <li class="mob-menu-social-item"><a href="" class="mob-menu-social-link link">Facebook</a></li>
+                    <li class="mob-menu-social-item"><a href="" class="mob-menu-social-link link">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <button class="menu-close-btn">
+            <span></span>
+        </button>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__box">
+                <a class="logo" href="./index.html"><img src="./images/Logo/1logo.png" alt="logo"></a>
+                <nav>
+                    <ul class="header__nav">
+                        <li class="header__nav-item"><a href="./index.html" class="header__button">Головна</a></li>
+                        <li class="header__nav-item"><a href="./portfolio.html"
+                                class="header__button carent link">Галерея</a>
+                        </li>
+                        <li class="header__nav-item"><a href="./contacts.html" class="header__button link">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="header__link">
+                    <li class="header__link-item">
+                        <a href="mailto:All-Sunders@ukr.net" class="header__mail"> <svg class="header__link-icon">
+                                <use href="./images/icon/icon-defs.svg#icon-envelope"></use>
+                            </svg>All-Sunders@ukr.net</a>
+                    </li>
+                    <li class="header__link-item">
+
+                        <a href="tel:+380931150187" class="header__phone">
+                            <svg class="header__link-icon">
+                                <use href="./images/icon/icon-defs.svg#icon-smartphone"></use>
+                            </svg>+38 093 115 01 87</a>
+                    </li>
+                </ul>
+                <button class="menu-open-btn">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="gallery"></div>
+            <!-- <div class="container">
+                <h1 hidden>Галерея</h1>
+                <div class="button__box">
+                    <ul class="button__list top">
+                        <li class="button__item"><button type="button" class="btn-select">Все</button></li>
+                        <li class="button__item"><button type="button" class="btn-select">Веб-сайты</button></li>
+                        <li class="button__item"><button type="button" class="btn-select">Приложения</button></li>
+                    </ul>
+                    <ul class="button__list bottom">
+                        <li class="button__item"><button type="button" class="btn-select">Дизайн</button></li>
+                        <li class="button__item"><button type="button" class="btn-select">Маркетинг</button></li>
+                    </ul>
+                </div>
+                <ul class="portfolio-list">
+                    <li class="portfolio-card">
+                        <a class="link" href="">
+                            <div class="portfolio-top-wrapper">
+                                <picture>
+                                    <source media="(min-width: 1200px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/desktop/project-1-desktop.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/desktop/project-1-desktop-2x.jpg 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/tablet/project-1-tablet.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/tablet/project-1-tablet-2x.jpg 2x">
+                                    <source media="(min-width: 480px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/mobile/project-1-mobile.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/mobile/project-1-mobile-2x.jpg 2x">
+                                    <img src="./images/portfolio/project-1.jpg" alt="Раскрытый ноутбук" width="370">
+                                </picture>
+
+                                <p class="portfolio-top-text">
+                                    Технокряк это современная площадка распространения коронавируса. Компании используют
+                                    эту платформу для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов.
+                                </p>
+                            </div>
+                            <div class="card-text">
+                                <h2 class="portfolio-title">Технокряк</h2>
+                                <p class="portfolio-text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-card"><a class="link" href="">
+                            <div class="portfolio-top-wrapper">
+                                <picture>
+                                    <source media="(min-width: 1200px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/desktop/project-2-desktop.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/desktop/project-2-desktop-2x.jpg 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/tablet/project-2-tablet.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/tablet/project-2-tablet-2x.jpg 2x">
+                                    <source media="(min-width: 480px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/mobile/project-2-mobile.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/mobile/project-2-mobile-2x.jpg 2x">
+                                    <img src="./images/portfolio/project-2.jpg" alt="Раскрытый ноутбук" width="370">
+                                </picture>
+                                <p class="portfolio-top-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit perferendis expedita
+                                    recusandae qui cum, dolores ipsum facilis? Exercitationem inventore quidem tempora
+                                    distinctio consectetur, cupiditate, eos autem quod suscipit temporibus accusamus.
+                                </p>
+                            </div>
+                            <div class="card-text">
+                                <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+                                <p class="portfolio-text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-card"><a class="link" href="">
+                            <div class="portfolio-top-wrapper">
+                                <picture>
+                                    <source media="(min-width: 1200px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/desktop/project-3-desktop.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/desktop/project-3-desktop-2x.jpg 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/tablet/project-3-tablet.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/tablet/project-3-tablet-2x.jpg 2x">
+                                    <source media="(min-width: 480px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/mobile/project-3-mobile.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/mobile/project-3-mobile-2x.jpg 2x">
+                                    <img src="./images/portfolio/project-3.jpg" alt="Раскрытый ноутбук" width="370">
+                                </picture>
+
+                                <p class="portfolio-top-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa quos porro
+                                    necessitatibus magnam neque, voluptatum itaque similique, a ab aut ullam facilis
+                                    repellat eos cum maiores expedita amet qui!
+                                </p>
+                            </div>
+                            <div class="card-text">
+                                <h2 class="portfolio-title">Ресторан Seafood</h2>
+                                <p class="portfolio-text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-card"><a class="link" href="">
+                            <div class="portfolio-top-wrapper">
+                                <picture>
+                                    <source media="(min-width: 1200px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/desktop/project-4-desktop.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/desktop/project-4-desktop-2x.jpg 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/tablet/project-4-tablet.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/tablet/project-4-tablet-2x.jpg 2x">
+                                    <source media="(min-width: 480px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/mobile/project-4-mobile.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/mobile/project-4-mobile-2x.jpg 2x">
+                                    <img src="./images/portfolio/project-4.jpg" alt="Раскрытый ноутбук" width="370">
+                                </picture>
+
+                                <p class="portfolio-top-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempore
+                                    possimus veniam odit facilis nihil nesciunt veritatis, reiciendis exercitationem,
+                                    animi perferendis natus! Accusantium nisi odit, ducimus corrupti veniam eligendi
+                                    itaque.
+                                </p>
+                            </div>
+                            <div class="card-text">
+                                <h2 class="portfolio-title">Проект Prime</h2>
+                                <p class="portfolio-text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-card"><a class="link" href="">
+                            <div class="portfolio-top-wrapper">
+                                <picture>
+                                    <source media="(min-width: 1200px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/desktop/project-5-desktop.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/desktop/project-5-desktop-2x.jpg 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/tablet/project-5-tablet.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/tablet/project-5-tablet-2x.jpg 2x">
+                                    <source media="(min-width: 480px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/mobile/project-5-mobile.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/mobile/project-5-mobile-2x.jpg 2x">
+                                    <img src="./images/portfolio/project-5.jpg" alt="Раскрытый ноутбук" width="370">
+                                </picture>
+
+                                <p class="portfolio-top-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur rem quaerat
+                                    tenetur sapiente qui exercitationem, similique earum amet distinctio ratione,
+                                    delectus pariatur error vel dolore maxime sunt suscipit unde? Architecto.
+                                </p>
+                            </div>
+                            <div class="card-text">
+                                <h2 class="portfolio-title">Проект Boxes</h2>
+                                <p class="portfolio-text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-card"><a class="link" href="">
+                            <div class="portfolio-top-wrapper">
+                                <picture>
+                                    <source media="(min-width: 1200px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/desktop/project-6-desktop.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/desktop/project-6-desktop-2x.jpg 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/tablet/project-6-tablet.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/tablet/project-6-tablet-2x.jpg 2x">
+                                    <source media="(min-width: 480px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/mobile/project-6-mobile.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/mobile/project-6-mobile-2x.jpg 2x">
+                                    <img src="./images/portfolio/project-6.jpg" alt="Раскрытый ноутбук" width="370">
+                                </picture>
+
+                                <p class="portfolio-top-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odit nesciunt,
+                                    corporis iusto eligendi ad soluta ratione? Odio, quibusdam explicabo ea, voluptas
+                                    nobis veritatis voluptatibus hic labore repudiandae pariatur similique.
+                                </p>
+                            </div>
+                            <div class="card-text">
+                                <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                                <p class="portfolio-text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-card"><a class="link" href="">
+                            <div class="portfolio-top-wrapper">
+                                <picture>
+                                    <source media="(min-width: 1200px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/desktop/project-7-desktop.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/desktop/project-7-desktop-2x.jpg 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/tablet/project-7-tablet.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/tablet/project-7-tablet-2x.jpg 2x">
+                                    <source media="(min-width: 480px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/mobile/project-7-mobile.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/mobile/project-7-mobile-2x.jpg 2x">
+                                    <img src="./images/portfolio/project-7.jpg" alt="Раскрытый ноутбук" width="370">
+                                </picture>
+
+                                <p class="portfolio-top-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sequi beatae
+                                    inventore dolores doloribus praesentium nesciunt quod a, deleniti ipsum veritatis,
+                                    saepe impedit quibusdam amet accusamus tenetur quaerat, obcaecati sunt.
+                                </p>
+                            </div>
+                            <div class="card-text">
+                                <h2 class="portfolio-title">Издание Limited Edition</h2>
+                                <p class="portfolio-text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-card"><a class="link" href="">
+                            <div class="portfolio-top-wrapper">
+                                <picture>
+                                    <source media="(min-width: 1200px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/desktop/project-8-desktop.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/desktop/project-8-desktop-2x.jpg 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/tablet/project-8-tablet.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/tablet/project-8-tablet-2x.jpg 2x">
+                                    <source media="(min-width: 480px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/mobile/project-8-mobile.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/mobile/project-8-mobile-2x.jpg 2x">
+                                    <img src="./images/portfolio/project-8.jpg" alt="Раскрытый ноутбук" width="370">
+                                </picture>
+
+                                <p class="portfolio-top-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio consequuntur non
+                                    praesentium perferendis hic ut quam tenetur quasi, sint, magnam molestiae! Vero
+                                    architecto ipsam dolor sed ab pariatur praesentium iusto!
+                                </p>
+                            </div>
+                            <div class="card-text">
+                                <h2 class="portfolio-title">Проект LAB</h2>
+                                <p class="portfolio-text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-card"><a class="link" href="">
+                            <div class="portfolio-top-wrapper">
+                                <picture>
+                                    <source media="(min-width: 1200px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/desktop/project-9-desktop.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/desktop/project-9-desktop-2x.jpg 2x">
+                                    <source media="(min-width: 768px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/tablet/project-9-tablet.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/tablet/project-9-tablet-2x.jpg 2x">
+                                    <source media="(min-width: 480px)"
+                                        srcset="
+                                                                        ./images/portfolio-adaptive/mobile/project-9-mobile.jpg 1x, 
+                                                                        ./images/portfolio-adaptive/mobile/project-9-mobile-2x.jpg 2x">
+                                    <img src="./images/portfolio/project-9.jpg" alt="Раскрытый ноутбук" width="370">
+                                </picture>
+
+                                <p class="portfolio-top-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam similique enim
+                                    error totam impedit aperiam iste, saepe ipsa alias laudantium quia, consequatur
+                                    provident aliquid quo ducimus dolore quas magni magnam.
+                                </p>
+                            </div>
+                            <div class="card-text">
+                                <h2 class="portfolio-title">Growing Business</h2>
+                                <p class="portfolio-text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div> -->
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__box">
+                <div class="footer__box-container">
+                    <address class="footer__addres">
+                        <ul class="footer__addres-list">
+                            <!-- <li class="footer__addres-item"> <a class="logo" href="./index.html"><span
+                                        class="logo__web-footer">Web</span><Span
+                                        class="logo__studio-footer">Studio</Span></a></li> -->
+                            <li class="footer__addres-item"> г. Киев, пр-т Леси Украинки, 26 </li>
+                            <li class="footer__addres-item"><a href="mailto:All-Sunders@ukr.net"
+                                    class="footer__addres-link">All-Sunders@ukr.net</a></li>
+                            <li class="footer__addres-item"><a href="tel:+380931150187" class="footer__addres-link">
+                                    +38 093 115 01 87</a>
+                            </li>
+                        </ul>
+                    </address>
+                    <div class="footer__social-box">
+                        <h2 class="footer__social-title">ПРИСОЕИНЯЙТЕСЬ</h2>
+                        <ul class="footer__social-list">
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <svg class="footer__social-icon ">
+                                        <use href="./images/icon/icon-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <svg class="footer__social-icon">
+                                        <use href="./images/icon/icon-defs.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <svg class="footer__social-icon">
+                                        <use href="./images/icon/icon-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-link">
+                                    <svg class="footer__social-icon">
+                                        <use href="./images/icon/icon-defs.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="subscribe__box">
+                    <p class="subscribe-title">Подпишитесь на рассылку</p>
+                    <form action="#" class="subscribe__form">
+                        <input type="email" name="subsribe" placeholder="E-mail" class="subscibe-input">
+                        <button type="submit" class="button subscribe-btn">Подписаться
+                            <svg class="subscribe-icon">
+                                <use href="./images/icon/icon-defs.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="./js/mob.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.2/simple-lightbox.min.js"
+        integrity="sha512-w+rQhMH2MD2B83HHL1XEFyRYOVG5SEUjD9tLoRalSQWDBe4x9DVD7FX34ytJ4uVplDJMik8aZLrQ6bSIQSTXZA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/gallery.js" type="module"></script>
+</body>
+
+</html>

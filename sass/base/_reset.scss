@@ -1,0 +1,25 @@
+/* вторичный цвет фона #F5F4FA */
+/* основной цвет фона #FFFFFF */
+p,
+h1,
+h2,
+h3,
+h4 {
+  padding: 0px;
+  margin: 0px;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+// .link.carent {
+//   color: #2196f3;
+// }
+
+.link {
+  color: var(--logo-text-color);
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

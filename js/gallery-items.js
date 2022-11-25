@@ -1,58 +1,58 @@
 export const galleryItems = [
   {
     preview:
-      './images/gallery/photo-1.jpg',
+      './images/gallery/4-photo.jpg',
     original:
-      './images/gallery/photo-1.jpg',
+      './images/gallery/4-photo.jpg',
     description: 'Hokkaido Flower',
   },
   {
     preview:
-      './images/gallery/2-photo.jpg',
+      './images/gallery/5-photo.jpg',
     original:
-      './images/gallery/2-photo.jpg',
+      './images/gallery/5-photo.jpg',
     description: 'Container Haulage Freight',
   },
   {
     preview:
-      './images/gallery/3-photo.jpg',
+      './images/gallery/13-photo.jpg',
     original:
-      './images/gallery/3-photo.jpg',
+      './images/gallery/13-photo.jpg',
     description: 'Aerial Beach View',
   },
   {
     preview:
-      './images/gallery/4-photo.jpg',
+      './images/gallery/8-photo.jpg',
     original:
-      './images/gallery/4-photo.jpg',
+      './images/gallery/8-photo.jpg',
     description: 'Flower Blooms',
   },
   {
     preview:
-      './images/gallery/5-photo.jpg',
+      './images/gallery/24-photo.jpg',
     original:
-      './images/gallery/5-photo.jpg',
+      './images/gallery/24-photo.jpg',
     description: 'Alpine Mountains',
   },
   {
     preview:
-      './images/gallery/6-photo.jpg',
+      './images/gallery/34-photo.jpg',
     original:
-      './images/gallery/7-photo.jpg',
+      './images/gallery/34-photo.jpg',
     description: 'Mountain Lake Sailing',
   },
   {
     preview:
-      './images/gallery/8-photo.jpg',
+      './images/gallery/30-photo.jpg',
     original:
-      './images/gallery/8-photo.jpg',
+      './images/gallery/30-photo.jpg',
     description: 'Alpine Spring Meadows',
   },
   {
     preview:
-      './images/gallery/9-photo.jpg',
+      './images/gallery/12-photo.jpg',
     original:
-      './images/gallery/9-photo.jpg',
+      './images/gallery/12-photo.jpg',
     description: 'Nature Landscape',
   },
   {
@@ -64,23 +64,23 @@ export const galleryItems = [
   },
   {
     preview:
-      './images/gallery/11-photo.jpg',
+      './images/gallery/45-photo.jpg',
     original:
-      './images/gallery/11-photo.jpg',
+      './images/gallery/45-photo.jpg',
     description: 'Container Haulage Freight',
   },
   {
     preview:
-      './images/gallery/12-photo.jpg',
+      './images/gallery/9-photo.jpg',
     original:
-      './images/gallery/12-photo.jpg',
+      './images/gallery/9-photo.jpg',
     description: 'Aerial Beach View',
   },
   {
     preview:
-      './images/gallery/13-photo.jpg',
+      './images/gallery/3-photo.jpg',
     original:
-      './images/gallery/13-photo.jpg',
+      './images/gallery/3-photo.jpg',
     description: 'Flower Blooms',
   },
   {
@@ -155,9 +155,9 @@ export const galleryItems = [
   },
   {
     preview:
-      './images/gallery/24-photo.jpg',
+      './images/gallery/5-photo.jpg',
     original:
-      './images/gallery/24-photo.jpg',
+      './images/gallery/5-photo.jpg',
     description: 'Alpine Spring Meadows',
   },
   {
@@ -197,9 +197,9 @@ export const galleryItems = [
   },
   {
     preview:
-      './images/gallery/30-photo.jpg',
+      './images/gallery/7-photo.jpg',
     original:
-      './images/gallery/30-photo.jpg',
+      './images/gallery/7-photo.jpg',
     description: 'Alpine Mountains',
   },
   {
@@ -225,9 +225,9 @@ export const galleryItems = [
   },
   {
     preview:
-      './images/gallery/34-photo.jpg',
+      './images/gallery/6-photo.jpg',
     original:
-      './images/gallery/34-photo.jpg',
+      './images/gallery/6-photo.jpg',
     description: 'Lighthouse Coast Sea',
   },
   {
@@ -301,9 +301,9 @@ export const galleryItems = [
   },
   {
     preview:
-      './images/gallery/45-photo.jpg',
+      './images/gallery/11-photo.jpg',
     original:
-      './images/gallery/45-photo.jpg',
+      './images/gallery/11-photo.jpg',
     description: 'Flower Blooms',
   },
   {

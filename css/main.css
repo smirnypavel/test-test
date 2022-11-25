@@ -291,7 +291,7 @@ body {
 
 .menu-close-btn span {
   display: block;
-  width: 24px;
+  width: 17px;
   height: 2.67px;
   background-color: var(--secondary-text-color);
   position: relative;
@@ -301,7 +301,7 @@ body {
 .menu-close-btn span::before {
   content: "";
   display: block;
-  width: 24px;
+  width: 17px;
   height: 2.67px;
   background-color: var(--secondary-text-color);
   position: absolute;

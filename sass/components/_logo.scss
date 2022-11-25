@@ -1,7 +1,11 @@
 //
 .logo {
-  width: 75px;
+  width: 60px;
   height: auto;
+  @media screen and (min-width: 767px) {
+    width: 75px;
+    height: auto;
+  }
 }
 .logo_footer {
   width: 75px;

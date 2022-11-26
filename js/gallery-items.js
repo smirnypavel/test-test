@@ -85,6 +85,41 @@ export const galleryItems = [
   },
   {
     preview:
+      './images/gallery/51-photo.jpg',
+    original:
+      './images/gallery/51-photo.jpg',
+    description: 'Lighthouse Coast Sea',
+  },
+  {
+    preview:
+      './images/gallery/52-photo.jpg',
+    original:
+      './images/gallery/52-photo.jpg',
+    description: 'Lighthouse Coast Sea',
+  },
+  {
+    preview:
+      './images/gallery/53-photo.jpg',
+    original:
+      './images/gallery/53-photo.jpg',
+    description: 'Lighthouse Coast Sea',
+  },
+  {
+    preview:
+      './images/gallery/54-photo.jpg',
+    original:
+      './images/gallery/54-photo.jpg',
+    description: 'Lighthouse Coast Sea',
+  },
+  {
+    preview:
+      './images/gallery/55-photo.jpg',
+    original:
+      './images/gallery/55-photo.jpg',
+    description: 'Lighthouse Coast Sea',
+  },
+  {
+    preview:
       './images/gallery/14-photo.jpg',
     original:
       './images/gallery/14-photo.jpg',

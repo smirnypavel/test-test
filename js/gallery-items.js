@@ -190,13 +190,6 @@ export const galleryItems = [
   },
   {
     preview:
-      './images/gallery/5-photo.jpg',
-    original:
-      './images/gallery/5-photo.jpg',
-    description: 'Alpine Spring Meadows',
-  },
-  {
-    preview:
       './images/gallery/25-photo.jpg',
     original:
       './images/gallery/25-photo.jpg',
